@@ -102,6 +102,22 @@ body {
     margin: 0 auto;
 }
 
+.navbar-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.navbar-nav a:hover {
+    box-shadow: 0 15px 8px rgba(78, 10, 92, 0.3);
+    border-radius: 4px;
+    background-color: #f5dbdb;
+    font-size: 1.01rem;
+}
+
+
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex !important;
